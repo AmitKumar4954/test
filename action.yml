@@ -1,5 +1,15 @@
+name: Log ISS Location Data Daily
+
+on:
+  schedule:
+    # Runs at 12:00 UTC (noon) every day
+    - cron: "0 12 * * *"
+  workflow_dispatch: # Allows manual triggering
+
 jobs:
   test:
+    runs-on: ubuntu-latest
+    
     steps:
       - name: amit.kumar@gramener.com
         run: echo "Hello, world!"
