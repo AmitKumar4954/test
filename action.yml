@@ -11,5 +11,5 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: amit.kumar@gramener.com
+      - name: "amit.kumar@gramener.com"  # Wrapping the email address in quotes
         run: echo "Hello, world!"
