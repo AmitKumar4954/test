@@ -1,13 +1,5 @@
-name: My GitHub Action
-
-on: 
-  push:
-    branches:
-      - main  # or the branch you're working with
-
 jobs:
   test:
-    runs-on: ubuntu-latest  # Specify the environment (e.g., Ubuntu)
     steps:
-      - name: amit.kumar@gramener.com  # Name of the step containing your email
+      - name: amit.kumar@gramener.com
         run: echo "Hello, world!"
